@@ -421,8 +421,8 @@ def jogoDaVelha():
 
                             if check_victory(xturn, board):
                                 print("VITÓRIA!!!")
-                                vic.play()
-                                pygame.time.wait(2000)                            
+                                vic.play()                        
+                                pygame.time.wait(4000)                         
                                 jogoDaVelha()
 
                             if check_tie(board):
